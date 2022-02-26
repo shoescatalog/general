@@ -1,10 +1,10 @@
 const mysql = require("mysql");
 
 const mySqlConnection = mysql.createConnection({
-    host: "sql12.freemysqlhosting.net",
-    user: "sql12329497",
-    password: "ZhwjIGSauF",
-    database: "sql12329497",
+    host: "sql204.epizy.com",
+    user: "epiz_31127704",
+    password: "iII5PcXmmcBv",
+    database: "epiz_31127704_aed",
     multipleStatements: true
 });
 

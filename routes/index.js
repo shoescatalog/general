@@ -4,16 +4,16 @@ const flash           = require('connect-flash');
 const router          = express.Router();
 
 let blogQuotes = [
-    ['“Don’t focus on having a great blog. Focus on producing a blog that’s great for your readers.”', 'Brian Clark'],
-    ['“Blogging is a conversation, not a code.”', 'Mike Butcher'],
-    ['“Blogging is like work, but without coworkers thwarting you at every turn.”', 'Scott Adams'] ,
-    ['“A blog is only as interesting as the interest shown in others.”', 'Lee Odden'],
-    ['“Blogging is just writing — writing using a particularly efficient type of publishing technology.”', 'Simon Dumenco'],
-    ['“Blogging is a communications mechanism handed to us by the long tail of the Internet.”', 'Tom Foremski'],
-    ['“Blogs are whatever we make them. Defining ‘Blog’ is a fool’s errand.”', 'Michael Conniff'],
-    ['“The casual conversational tone of a blog is what makes it particularly dangerous”', ' Daniel B. Beaulieu'],
-    ['“Not only are bloggers suckers for the remarkable, so are the people who read blogs.”', 'Seth Godin'],
-    ['“Blogging is hard because of the grind required to stay interesting and relevant.”', 'Sufia Tippu'],
+    ['Ngr All Elite Design (AED) is brand extention from Ngr.'],
+    ['Ngr AED nickname of All Elite Design.'],
+    ['Ngr All Elite Design Is a commercial and UI/UX design service.'] ,
+    ['Ngr All Elite Design created 1 January 2022, Ngr Created 1 March 2016 as SNBTR'],
+    ['Ngr is a multiplatform and multi-sector service covering an international area'],
+    ['Ngr founder Seth first formed Ngr as a video production.'],
+    ['Ngr All Elite Design promises speed, accuracy and customer satisfaction.'],
+    ['Official web Ngr nugrohoid.xyz'],
+    ['UI/UX and Commercial Design.'],
+    ['Website during maintance, sorry for distraction.'],
 ];
 
 router.get('/', (req, res) => {

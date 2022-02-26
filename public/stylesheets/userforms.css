@@ -118,7 +118,13 @@ button.lrform-btn:hover {
         width: 100%;
     }
 }
-.lowerText {
+.tulisanbawah {
     float: right;
-    padding-top: 16px;
+    padding-top: 16px;;
+    text-shadow: #f44336;
+}
+.tulisanbawahtengah {
+    float: center;
+    padding-top: 16px;;
+    
 }

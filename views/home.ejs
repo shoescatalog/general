@@ -1,61 +1,35 @@
 <%- include("partials/header") %>
 
 <div class="topnav">
-    <a id="homeNav" class="active" href="/"><i class="fas fa-blog"></i> Get Blogged</a>
-    <a href="/users/newblog">New Post</a>
+    <a id="homeNav" class="" href="/"><i class=""></i>All Elite Design</a>
+    
     <a id="signinLink" href="/users/login">Sign in</a>
 </div>
-
-<h1 class="tagline">A DIRECTORY OF WONDERFUL<br>CONTENT</h1>
+<td align="right"><img id="rounded-img" src="https://i.postimg.cc/SQrFMg1N/AED.png" alt=""></td>
+<h1 class="tagline">VISION SPEED<br>QUALITY</h1>
 
 <% let x = Math.floor((Math.random() * 10)); %> 
 
-<h3 id="quotes"><%= blogQuotes[x][0] %><br>- By <%= blogQuotes[x][1] %></h3>
+<h3 id="quotes"><%= blogQuotes[x][0] %><br> <%= blogQuotes[x][1] %></h3>
 
 <div class="regisbtnDiv">
-    <a class="registerBtn" href="/users/register">Get started</a><br>
+    <h4>Login/Register to open the product etalase.</h4>
+    <a class="registerBtn" href="/users/register">Register now!</a><br>
     Already have an account? <a href="/users/login">Sign in.</a>
 </div>
 <br><hr><br>
 <div class="home-container">
     <table id="largeScreenTable">
         <tr>
-            <td><img src="/images/free.webp" alt=""></td>
-            <td><h4>It's free and always will be</h4></td>
+            <td><h4>Growing thriving startups encourages the creation of young people.</h4></td>
+            <td align="right"><img id="rounded-img" src="https://i.postimg.cc/R0prYhf6/AED-B1.jpg" alt=""></td>
         </tr>
         <tr>
-            <td><h4>Growing positive community. Read, write blogs anytime from anywhere.</h4></td>
-            <td align="right"><img id="rounded-img" src="https://freemasonsnz.org/wp-content/uploads/2019/05/Strategic-Direction-Icons_Community3.png" alt=""></td>
+            <td><img src="https://i.postimg.cc/NMTyD5PY/AED-B2.jpg" alt=""></td>
+            <td><h4>Various kinds of services are expected to be able to develop skills and build networks assisted by Ngr.</h4></td>
         </tr>
-        <tr>
-            <td><img src="/images/collage.jpg" alt=""></td>
-            <td><h4>Lot's of categories to choose from. Technology, travel, food, science, relationships, video games, politics and many more.</h4></td>
-        </tr>
-    </table>
-    <table id="smallScreenTable">
-        <tr><td align="center">
-            <img src="/images/free.webp" alt="">
-        </td></tr>
-        <tr class="imageTextHome"><td align="center">
-            <h4>It's free and always will be</h4>
-        </td></tr>
-        <tr><td align="center">
-            <img id="rounded-img" src="https://freemasonsnz.org/wp-content/uploads/2019/05/Strategic-Direction-Icons_Community3.png" alt="">
-        </td></tr>
-        <tr class="imageTextHome"><td align="center" >
-            <h4>Growing positive community. Read, write blogs anytime from anywhere.</h4>
-        </td></tr>
-        <tr><td align="center">
-            <img src="/images/collage.jpg" alt="">
-        </td></tr>
-        <tr class="imageTextHome"><td align="center" >
-            <h4>Lot's of categories to choose from. Technology, travel, food, science, relationships, video games, politics and many more.</h4>
-        </td></tr>
     </table>
     <br><hr><br>
-    <div class="regisbtnDiv">
-        <a class="registerBtn" href="/users/register">Get started</a>
-    </div>
 </div>
 
 <%- include("partials/footer") %>

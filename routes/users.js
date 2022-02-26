@@ -108,7 +108,7 @@ router.post('/newblog', (req, res) => {
     mySqlConnection.query(sqlQuery, [values2], function(err) {
         if (err) res.status(500).send(err);
         else {
-            req.flash('newBlogMsg', "New Blog added successfully!!");
+            req.flash('newBlogMsg', "New Product added successfully!!");
             res.status(200).redirect("/dashboard");
         }
     });

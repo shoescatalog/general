@@ -18,8 +18,9 @@ let blogQuotes = [
 
 router.get('/', (req, res) => {
     if (!req.session.user) {
-        res.status(200).render('home', {blogQuotes: blogQuotes});
-    } else {
+        mySqlConnection.query("SELECT * FROM blogs", function (err, blogs, fields){
+        res.status(200).render('home', {blogs: blogs});
+    })} else {
         res.render('logoutpage');
     }
 });
